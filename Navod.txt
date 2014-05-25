@@ -1,0 +1,34 @@
+1) Instalace a spuštění serverového programu ve Windows:
+	- Pokud Váš počítač obsahuje JRE (Java runtime environment) postačí stáhnout soubor s příponou ".jar". V opačném případě
+	  stáhněte soubor s příponou ".exe", spustě jej a nainstalujte JRE ze stránky, na kterou budete odkázáni.
+	- Po stažení souboru UnderControl.jar není potřeba žádná instalace. Program stačí spustit.
+	- Pokud chcete počítač ovládat i v zabezpečených situacích stanovených systémem Windows,
+	  je potřeba spustit program jako správce.
+	- Po spuštění se objeví v oznamovací oblasti hlavního panelu ikona, která Vás informuje o 
+	  spuštění serverů čekajících na připojení.
+	- Poklepáním na ikonu se zobrazí okno s podrobnostmi, které umožňuje změnit jazyk, 
+	  zastavit servery a znovu je spustit (i s jiným portem, který musí být totožný s portem 
+	  na mobilním zařízení).
+	- Pokud program naběhne správně, Bluetooth server "Čeká na připojení" a Wifi server "Čeká na IP adrese ...".
+	- Pro ukončení aplikace je potřeba, kliknout pravým tlačítkem na notifikační ikonu a zvolit EXIT.
+(Pozn. program v nečinném stavu nezatěžuje systém. Proto řada uživatelů jistě ocení jeho automatické spouštění po startu systému. Toho lze dosáhnout například tak, že program vložíte do složky "Po Spuštění", kterou poskytuje operační systém Windows.)
+
+2) Navázání spojení:
+	- Po spuštění aplikace na smartphonu je potřeba zvolit jeden z režimů připojení. Ve všech případech je
+	  potřeba, aby byl zároveň spuštěný serverový program na počítači.
+	- Pokud zvolíte Touchpad - bluetooth, musíte nejprve vyhledat zařízení ve svém okolí 
+	  (pokud už nejsou dříve spárována). Po vyhledání klikněte na jméno zvoleného zařízení a systém se pokusí navázat spojení.
+	  První připojování může trvat několik sekund a může být vyžadováno spárování zařízení.
+	- Pokud zvolíte jednu z možností připojení pomocí WiFi, je potřeba zadat IP adresu počítače, na kterém je
+	  spuštěn serverový program. IP adresu lze nalézt v okně spuštěného serverového programu na řádku "Wifi server"
+	- Pokud se pokusíte připojit k počítači, na řádku Bluetooth server nebo Wifi server se zobrazí "Připojování".
+	  Jestliže se tak nestane, zařízení se nemohou kontaktovat. To může být způsobeno například tím,
+	  že firewall blokuje komunikaci pro danou aplikaci. Zkuste ji proto ve vašem firewallu povolit.
+
+3) Základní ovládání aplikace:
+	- Ovládání je podobné standardnímu ovládání notebooku pomocí touchpadu se dvěma tlačítky.
+	- Levé a pravé kliknutí je realizováno dvojicí krajních tlačítek (levé kliknutí lze také vyvolat kliknutím 
+	  dvou prstů na ovládací plochu).
+	- Scrollování stránek umožňuje posuvník. Pohybem prstu dolů po posuvníku se i stránka scrolluje dolů.
+	- Výběr texte je realizován stiskem levého tlačítka a pohybem druhého prstu po touchpadu.
+	- Vyvolání klávesnice a další funkce jsou zprostředkovány pomocí menu vyvolaného prostředním tlačítkem.
